@@ -1,0 +1,116 @@
+/*全体*/
+
+html {
+  background-color: #364f6b;
+  color: #364f6b;
+  font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Libre Franklin", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: left;
+
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #5c7086;
+  /*text-shadow: 3px 3px 1px #364f6b;*/
+}
+
+h2 {
+  font-size: 30px;
+}
+h3 {
+  margin: 0 auto;
+  font-size: 26px;
+}
+
+p {
+  line-height: 1.5; /*上下に*/
+}
+a {
+  color: #364f6b;
+}
+
+a:hover {
+  color: #c00000;
+}
+
+img {
+  display: block;
+}
+
+/*body*/
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fbfaf5;
+  padding: 20px 20px 20px 20px;
+  border-right: 10px solid #5c7086;
+  border-left: 10px solid #5c7086;
+}
+
+/*header*/
+header {
+  margin-bottom: 30px;
+}
+
+.header-container {
+  margin: 0 100px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.title-bar img,
+.title-bar h1 {
+  display: block;
+  float: left;
+  padding-bottom: 30px;
+}
+
+.title-bar img {
+  max-width: 150px;
+}
+.header-container h2 {
+  clear: both;
+}
+
+/*main*/
+
+.main-container {
+  padding: 50px 0;
+}
+.main-container {
+  margin: 0 100px;
+}
+
+.works {
+  padding-bottom: 200px;
+  padding-top: 30px;
+}
+.work-pics {
+  max-width: 100%;
+}
+
+.main-exp,
+.main-img,
+.test-list {
+  display: block;
+}
+
+.main-exp,
+.main-img {
+  float: left;
+  width: 50%;
+}
+
+.test-list {
+  clear: both;
+}
+
+/*footer*/
+footer {
+  margin: 0 100px;
+}
